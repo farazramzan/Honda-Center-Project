@@ -224,7 +224,11 @@ function App() {
       <ToastContainer position="top-right" autoClose={2000} />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Login />} />
+          <Route path="/" element={
+            // <Login />
+            <UserHome />
+            
+            } />
 
           <Route path='/' element={<MainLayout />}>
             {/* Admin Pages */}
